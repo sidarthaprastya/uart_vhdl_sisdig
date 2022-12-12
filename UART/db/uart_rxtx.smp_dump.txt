@@ -1,0 +1,26 @@
+
+State Machine - |uart|ps1
+Name ps1.b81 ps1.b71 ps1.b61 ps1.b51 ps1.b41 ps1.b31 ps1.b21 ps1.b11 ps1.b01 ps1.ready1 
+ps1.ready1 0 0 0 0 0 0 0 0 0 0 
+ps1.b01 0 0 0 0 0 0 0 0 1 1 
+ps1.b11 0 0 0 0 0 0 0 1 0 1 
+ps1.b21 0 0 0 0 0 0 1 0 0 1 
+ps1.b31 0 0 0 0 0 1 0 0 0 1 
+ps1.b41 0 0 0 0 1 0 0 0 0 1 
+ps1.b51 0 0 0 1 0 0 0 0 0 1 
+ps1.b61 0 0 1 0 0 0 0 0 0 1 
+ps1.b71 0 1 0 0 0 0 0 0 0 1 
+ps1.b81 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |uart|ps
+Name ps.b8 ps.b7 ps.b6 ps.b5 ps.b4 ps.b3 ps.b2 ps.b1 ps.b0 ps.ready 
+ps.ready 0 0 0 0 0 0 0 0 0 0 
+ps.b0 0 0 0 0 0 0 0 0 1 1 
+ps.b1 0 0 0 0 0 0 0 1 0 1 
+ps.b2 0 0 0 0 0 0 1 0 0 1 
+ps.b3 0 0 0 0 0 1 0 0 0 1 
+ps.b4 0 0 0 0 1 0 0 0 0 1 
+ps.b5 0 0 0 1 0 0 0 0 0 1 
+ps.b6 0 0 1 0 0 0 0 0 0 1 
+ps.b7 0 1 0 0 0 0 0 0 0 1 
+ps.b8 1 0 0 0 0 0 0 0 0 1 
